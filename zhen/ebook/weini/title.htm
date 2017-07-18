@@ -1,0 +1,126 @@
+﻿<html>
+<head>
+<STYLE>
+BODY {
+SCROLLBAR-SHADOW-COLOR: #caaec7;
+ SCROLLBAR-3DLIGHT-COLOR: #c9f4ff;
+ SCROLLBAR-ARROW-COLOR: #000000;
+ SCROLLBAR-TRACK-COLOR: #5890ae;
+ SCROLLBAR-DARKSHADOW-COLOR: #446f70;
+ SCROLLBAR-BASE-COLOR: #79b1cf
+}
+</STYLE>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>新建网页 1</title>
+<base target="_self">
+</head>
+<body background="bkgd.jpg">
+
+<div align="center">
+	<table border="0" width="640" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><img border="0" src="oatop.jpg" width="640" height="108"></td>
+		</tr>
+		<tr>
+			<td background="oamid.jpg">
+			<p align="center" style="margin-top: 0; margin-bottom: 0">
+			　<p align="center" style="margin-top: 0; margin-bottom: 0">
+			<a href="index_w.htm">
+			<img border="0" src="bk2.jpg" width="264" height="390"></a><p align="center" style="margin-top: 0; margin-bottom: 0">
+			　</td>
+		</tr>
+		<tr>
+			<td>
+			<p style="margin-top: 0; margin-bottom: 0"><img border="0" src="oabot.jpg" width="640" height="208"></td>
+		</tr>
+	</table>
+</div>
+<script language="JavaScript">
+
+function setVariables() {
+if (navigator.appName == "Netscape") {
+v=".top=";
+dS="document.";
+sD="";
+y="window.pageYOffset";
+}
+else {
+v=".pixelTop=";
+dS="";
+sD=".style";
+y="document.body.scrollTop";
+   }
+}
+function checkLocation() {
+object="object1";
+yy=eval(y);
+eval(dS+object+sD+v+yy);
+setTimeout("checkLocation()",10);
+}
+</script> 
+<style>
+.intro{
+position:absolute;
+left:0;
+top:0;
+layer-background-color:#b6e1f2; 
+background-color:#b6e1f2;
+border:0.1px #b6e1f2
+}
+</style>
+<div id="i1" class="intro"></div>
+<div id="i2" class="intro"></div>
+
+<script language="JavaScript1.2">
+<!-- Begin
+
+var speed=18 //開啟速度(數值越大、速度越快)
+var temp=new Array()
+var temp2=new Array()
+if (document.layers){
+for (i=1;i<=2;i++){
+temp[i]=eval("document.i"+i+".clip")
+temp2[i]=eval("document.i"+i)
+temp[i].width=window.innerWidth/2
+temp[i].height=window.innerHeight
+temp2[i].left=(i-1)*temp[i].width
+}
+}
+else if (document.all){
+var clipright=document.body.clientWidth/2,clipleft=0
+for (i=1;i<=2;i++){
+temp[i]=eval("document.all.i"+i+".style")
+temp[i].width=document.body.clientWidth/2
+temp[i].height=document.body.offsetHeight
+temp[i].left=(i-1)*parseInt(temp[i].width)
+}
+}
+
+
+function openframe(){
+window.scrollTo(0,0)
+if (document.layers){
+temp[1].right-=speed
+temp[2].left+=speed
+if (temp[2].left>window.innerWidth/2)
+clearInterval(stopit)
+}
+else if (document.all){
+clipright-=speed
+temp[1].clip="rect(0 "+clipright+" auto 0)"
+clipleft+=speed
+temp[2].clip="rect(0 auto auto "+clipleft+")"
+if (clipright<=0)
+clearInterval(stopit)
+}
+}
+
+function start(){
+stopit=setInterval("openframe()",100)
+}
+start()
+
+// End -->
+</script>
+</body>
+</html>

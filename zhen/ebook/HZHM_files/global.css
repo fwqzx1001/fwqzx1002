@@ -1,0 +1,261 @@
+body{/*background:#EDEDED url(/images/bg_b.gif) repeat-x scroll center top;*/font-family:PMingLiu;}
+#wrap{width:962px;border:1px solid #ccc;margin:0 auto;background-color:#ffffff;position:relative;}
+a{text-decoration:none;color:#2C58A3;}
+a:visited{color:#999999;}
+a:hover{color:#FF6600;}
+
+
+.grid_3a{width:220px;display:inline;float:left;}
+.grid_9a{width:730px;display:inline;float:left;}
+.grid_2half{width:180px;display:inline;float:left;margin-right:10px}
+.grid_5half{width:420px;display:inline;float:left;margin-left:10px;}
+.grid_4half{width:280px;float:left;display:inline;}
+.grid_4b{width:320px;float:left;display:inline;}
+.grid_10a{width:810px;float:left;display:inline;}
+.grid_2a{width:150px;float:left;display:inline;}
+.grid_2b{width:120px;float:left;display:inline;}
+.grid_11a{width:620px;float:left;display:inline;margin:0 10px;}
+.grid_4a{width:200px;float:left;display:inline;margin:0 10px;}
+.grid_5a{width:300px;float:left;display:inline;margin:0 10px;}
+.grid_6a{width:315px;float:left;display:inline;margin-left:10px;}
+.grid_8a{width:645px;float:left;display:inline;margin-left:10px;}
+.grid_4{overflow:hidden;}
+
+.mtop0{margin-top:0;}
+.mtop5{margin-top:5px;}
+.mtop10{margin-top:10px;}
+.mtop15{margin-top:15px;}
+.mtop20{margin-top:20px;}
+.mbottom0{margin-bottom:0}
+.mbottom5{margin-bottom:5px;}
+.mbottom10{margin-bottom:10px;}
+.mright10{margin-right:10px;}
+.mright20{margin-right:20px;}
+.mbottom20{margin-bottom:20px;}
+.mleft5{margin-left:5px;}
+.mleft10{margin-left:10px;}
+.mleft20{margin-left:20px;}
+.mleft40{margin-left:40px;}
+.ptop5{padding-top:5px;}
+.ptop10{padding-top:10px;}
+.pleft5{padding-left:5px;}
+.pleft10{padding-left:10px;}
+.pbottom10{padding-bottom:10px;}
+.pright10{padding-right:10px;}
+.pleft40{padding-left:40px;}
+.pad5{padding:5px;}
+.pad10{padding:10px;}
+.ind20{text-indent:20px;}
+
+#hd1{background-color:#0460A0;border:1px solid #ffffff;}
+form#userLogin input{font-size:12px;}
+
+a.tougaolink{color:#aa0000;}
+a.tougaolink:visited{color:#aa0000;}
+
+
+.tu{color:#ff0099;}
+.paging table{margen}
+
+#hd1{position:relative;height:50px;line-height:25px;}
+#hd1 #search{position:absolute;right:430px;}
+#hd1 #login{position:absolute;right:10px;}
+#hd1 form .txt{height:12px;}
+
+#submenu{border:1px solid #CBD7EC;border-style:solid none solid none;background-color:#fafaff;text-align:center;z-index:11;font-size:15px;}
+#submenu table{margin:0 auto;width:100%}
+#submenu table ul.sub{display:none;background-color:#fafaff;position:absolute;top:5px;left:-30px;}
+#submenu table tr td{padding:5px;}
+#submenu table tr td div.subdiv{position:relative;padding:0px 2px;z-index:100;}
+#submenu table ul li{border:1px solid #E9DB78;border-top:none;width:100px;}
+#submenu table ul li.first{border-top:1px;}
+#submenu table ul li a{display:block;padding:7px;}
+#submenu table ul li a:hover{background-color:#FFF1A1;}
+#submenu table td:hover ul.sub, #submenu table td a:hover ul.sub{display:block;}
+#submenu table tr td div.subsubdiv{padding:1px 0px;width:90px;}
+#submenu table ul.subsub{display:none;background-color:#fafaff;position:absolute;top:0px;left:90px;}
+#submenu table ul li:hover ul.subsub, #submenu table ul li a:hover ul.subsub{display:block;}
+
+#breadcrumb{border-bottom:1px solid #CBD7EC;margin-top:20px;margin-bottom:10px;padding-bottom:5px;font-size:15px;}
+#breadcrumb #breadcrumbs{padding-left:10px;}
+#jskx{width:400px;margin-left:50px;display:inline;}
+#jishikuaixun1{width:300px;}
+#breadcrumb marquee{font-size:13px;line-height:120%;}
+
+#paging{text-align:center;margin-top:20px;}
+
+#commenttable, .commenttable{line-height:22px;}
+
+.oneblogger{width:295px;border-bottom:1px dotted #dddddd;margin-bottom:5px!important;margin-bottom:2px;font-size:15px;}
+.bloggerleft{padding-left:5px;width:100px;float:left;height:60px;overflow:hidden;}
+.bloggerright{float:left;width:180px;padding-left:10px;padding-top:2px;text-align:justify;}
+.bloggerright a{font-size:15px;line-height:20px;}
+.djyblog{padding:0px 5px 0px 200px;}
+
+.alignright{text-align:right;}
+.alignleft{text-align:left;}
+.aligncenter{text-align:center;}
+.left_float{float:left;}
+
+.pics {background-color:#FFFFFF;background-image:url(/images/sprites_000.gif);background-repeat:no-repeat;display:block;overflow:hidden;}
+
+/*font types*/
+.w13{font-size:13px;color:#ffffff;}
+.w13 a{color:#ffffff;}
+.w13 a:hover{color: #66FFFF;}
+.red16{color:#cc3333;line-height:120%;}
+.blue18{font-size:20px;color:#0033dd;line-height:150%;}
+.grey12{color:#555555;font-size:12px;}
+.f15{font-size:15px;}
+.red200{color:#d40000;line-height:40px;font-size:200%;font-weight:bold;}
+.grey15, .grey15 a{color:#333333;font-size:15px;line-height:22px;}
+.grey15 a:hover{color:#ff9900;}
+small{font-family:Arial;color:#999999;font-size:13px;}
+a.fhuang:link {color:#FFD800;text-decoration:none;}
+
+.newslist {background-image:url(/images/dot.gif);background-position:5px 15px;background-repeat:no-repeat;height:25px;overflow:hidden;padding:0 5px 0 15px;text-align:justify;white-space:nowrap;line-height:25px;}
+.boxTitle{background-color:#E1EFFA;border-left:1px solid #FFFFFF;color:#DD0000;font-size:14px;font-weight:bold;line-height:20px;margin-bottom:5px;padding:5px 0 5px 5px;text-align:justify;}
+
+.imgbottom{vertical-align:text-bottom;}
+.imgmiddle{vertical-align:middle;}
+.imgbase{vertical-align:baseline;}
+
+.ind_foot{ width:960px; height:98px; margin:12px auto 15px auto; background:url(/images/footbg.gif) no-repeat left top;  color:#FFFFFF; font-size:12px; line-height:98px; text-align:center;padding-bottom:10px;}
+
+#bottomad{position:fixed;bottom:0px;}
+#bottomad #box{position:relative;width:100%;}
+#bottomad #closeme{
+filter:alpha(opacity=10);
+-moz-opacity:0.1;
+-khtml-opacity: 0.1;
+opacity: 0.1;
+background:#ffffff;display:block;position:absolute;right:116px;bottom:0px;width:100px;height:50px;}
+#rightad160{position:absolute;right:-170px;top:0;}
+#artrightad160{width:180px;text-align:center;margin:0 auto;background-color:#FAFAFF;}
+
+/*share block*/
+#share{font-size:12px;font-family:arial,helvetica,lucida,tahoma,verdana,sans-serif;line-height:16px;height:16px;margin:20px 0;}
+#share img{vertical-align:middle;}
+#share .txt{color:#ff0000;}
+#share .bg{background:url(/images/preview/share.png) no-repeat;display:block;padding-left:18px;margin-right:10px;}
+#share .facebook{background-position:0 -3408px;}
+#share .twitter{background-position:0 -3200px;}
+#share .linkedin{background-position:0 -2192px;}
+#share .delicious{background-position:0 -144px;}
+#share .googlebuzz{background-position:0 -2496px;}
+#share .myspace{background-position:0 -3120px;}
+#share .digg{background-position:0 -3696px;}
+#share .reddit{background-position:0 -2960px;}
+.FBConnectButton_Text{}
+
+#topad728{text-align:center;margin-top:20px;}
+#topad7282{position:absolute;top:100px;left:117px;}
+#righttopad{position:absolute;top:250px;right:10px;}
+
+/*tabs part*/
+.navbox {
+	position:relative;        /* establish a menu-relative positioning context */
+	float:left;                                     /* play nicely with others */
+	padding:0;
+	border:0;
+	height:24px;
+	margin-bottom:285px;
+	width:100%;         /* we always want our menu to fill the available space */
+	       /* this sets the base font size for our entire menu */
+	border-bottom:1px solid #cbd7ec;
+}
+*html .navbox{margin-bottom:245px;}
+.navbox ul {
+	padding:0;
+	margin:0;
+	border:0;
+	list-style-type:none;          /* we don't want to view the list as a list */
+	line-height:1.5em;           /* globally set the menu's item spacing. note */
+}                               /* this must be 1.0 or 1.5 or 2.0 for Mozilla */
+
+.navbox li {
+	float:left;    /* this creates the side-by-side array of top-level buttons */
+	margin:0;
+}
+.navbox ul li ul li{float:none;}
+.navbox ul li table {
+	margin:-1px 0;              /* IE5 needs -1px top and bottom table margins */
+	m\argin:0;               /* re-zero the table margins for everyone but IE5 */
+	border-collapse:collapse;      /* IE5 needs this for the sub-menus to work */
+	       /* this sets the base font size for our entire menu */
+}
+
+/*======================== TOP LEVEL MENU DEFINITIONS ========================*/
+
+.navbox ul li ul {
+	display:none;
+}
+
+.navbox ul li a,
+.navbox ul li a:visited {                    /* unselected top-level menu items */
+	text-decoration:none;
+	height:25px;
+	line-height:25px;
+}
+.navbox ul li a.hori{padding:0 10px;text-align:center;border:1px solid #cbd7ec;border-bottom:none;display:block;float:left;}
+.navbox ul.current li a.hori{color:#aa0000;background-color:#fafaff;border-bottom:1px solid #fafaff;z-index:102;height:24px;}
+.navbox ul.current li:hover a.hori, .navbox ul.current li a.hori:hover{color:#aa0000;background-color:#eeffff;}
+.navbox ul.select li a.hori{color:#663300;margin-left:1px;}
+.navbox ul.select li:hover a.hori, .navbox ul.select li a.hori:hover{color:#aa0000;background-color:#eeffff;margin-left:1px;}
+
+/*======================== 2ND LEVEL MENU DEFINITIONS ========================*/
+
+.navbox ul li:hover ul,
+.navbox ul li a:hover ul {                           /* 2nd level drop-down box */
+	display:block;
+	background-color:#eeffff;
+	width:298px;
+	height:260px;
+	overflow:auto;
+	padding-top:10px;
+	position:absolute;
+	margin:0;
+	top:25px;              /* place us just up underneath the top-level images */
+	left:0;       /* left-align our drop-down to the previous button border */
+	z-index:100;
+	border:1px solid #cbd7ec;        /* give us a black border underneath */
+	border-top:none;		
+}
+
+.navbox ul li ul.sub_active {/* show the first one when window loaded */
+	display:block;
+	z-index:0;
+	width:298px;
+	height:260px;
+	overflow:auto;
+	padding-top:10px;
+	position:absolute;
+	margin:0;
+	top:25px;              /* place us just up underneath the top-level images */
+	left:0;       /* left-align our drop-down to the previous button border */
+	background-color:#fafaff;
+	border:1px solid #cbd7ec;        /* give us a black border underneath */
+	border-top:none;		 			
+}
+
+*html .navbox ul li ul.sub_active{border:1px solid #cbd7ec;}
+
+.navbox ul li ul li{font-size:15px;}
+
+.navbox ul li:hover .sub_active, .navbox ul li a:hover .sub_active, .navbox ul li ul.sub_active:hover a, .navbox ul li ul.sub_active a:hover a {/* show the first one when window loaded */
+	background-color:#eeffff;		
+}
+
+.navbox ul li:hover ul li a,
+.navbox ul li a:hover ul li a {                   /* 2nd level unselected items */
+	border:0;
+	margin:0;
+	padding:0;
+	height:auto;
+	color:#2C58A3;               /* this sets the unselected drop-down text color */
+}
+
+.navbox ul li:hover ul li:hover a,
+.navbox ul li a:hover ul li a:hover {                /* 2nd level selected item */
+	color:#ff0000;
+}

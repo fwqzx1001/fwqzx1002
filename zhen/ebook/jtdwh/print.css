@@ -1,0 +1,164 @@
+﻿@page { margin:2in}
+INPUT {
+	FONT-SIZE: x-small; COLOR: #000000
+}
+OPTION {
+	FONT-SIZE: x-small; COLOR: #000000
+}
+SELECT {
+	FONT-SIZE: x-small; COLOR: #000000
+}
+BODY {
+	FONT-SIZE: small; COLOR: #000000; margin:1cm; spacing:0
+}
+TD {
+	FONT-SIZE: small; COLOR: #000000
+}
+.1 {
+	FONT-SIZE: 1pt; LINE-HEIGHT: 1pt
+}
+.2 {
+	FONT-SIZE: 2pt; LINE-HEIGHT: 2pt
+}
+.4 {
+	FONT-SIZE: 4pt; LINE-HEIGHT: 2pt
+}
+.12 {
+	FONT-SIZE: x-small
+}
+.16 {
+	FONT-SIZE: small
+}
+.BL12 {
+	FONT-SIZE: x-small; COLOR: #0000dd
+}
+.BL13 {
+	FONT-SIZE: small; COLOR: #0000dd; FONT-FAMILY: Ш蔨
+}
+.BL16 {
+	FONT-SIZE: small; COLOR: #0000dd
+}
+.BL20 {
+	FONT-SIZE: normal; COLOR: #0000dd
+}
+.BL24B {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #0033dd
+}
+.BK12 {
+	FONT-SIZE: x-small; COLOR: black
+}
+.BK13 {
+	FONT-SIZE: small; COLOR: black; FONT-FAMILY: Ш蔨
+}
+.BK16 {
+	FONT-SIZE: small; COLOR: black
+}
+.BK20 {
+	FONT-SIZE: normal; COLOR: black
+}
+.DBL12 {
+	FONT-SIZE: x-small; COLOR: #0033cc
+}
+.DBL13 {
+	FONT-SIZE: x-small; COLOR: #0033cc
+}
+.GD12 {
+	FONT-SIZE: x-small; COLOR: #ffcc33
+}
+.GD13 {
+	FONT-SIZE: x-small; COLOR: #ffcc33
+}
+.GD16 {
+	FONT-SIZE: small; COLOR: #ffcc33; font-wright: bold
+}
+.BN12 {
+	FONT-SIZE: x-small; COLOR: #cc3333
+}
+.BN13 {
+	FONT-SIZE: x-small; COLOR: #cc3333
+}
+.BN16 {
+	FONT-SIZE: small; COLOR: #cc3333; font-wright: bold
+}
+.GY12 {
+	FONT-SIZE: x-small; COLOR: #333333
+}
+.GY13 {
+	FONT-SIZE: x-small; COLOR: gray
+}
+.GY16 {
+	FONT-SIZE: small; COLOR: gray
+}
+.RD12 {
+	FONT-SIZE: x-small; COLOR: red
+}
+.RD13 {
+	FONT-SIZE: small; COLOR: #cc0000
+}
+.RD16 {
+	FONT-SIZE: small; COLOR: #cc0000
+}
+.RD20 {
+	FONT-SIZE: normal; COLOR: #cc0000
+}
+.RD24B {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #cc0000
+}
+.WT13 {
+	FONT-SIZE: x-small; COLOR: white
+}
+.rd {
+	FONT-SIZE: x-small; COLOR: #000000; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #ffca7b; TEXT-ALIGN: center
+}
+.gy {
+	FONT-SIZE: x-small; COLOR: #000000; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #eff0df; TEXT-ALIGN: center
+}
+.bl {
+	FONT-SIZE: x-small; COLOR: white; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #0066cc; TEXT-ALIGN: center
+}
+.ltbl {
+	FONT-SIZE: x-small; COLOR: #000000; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #e0f7f0; TEXT-ALIGN: center
+}
+.sl {
+	FONT-SIZE: x-small; COLOR: #333333; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #fffbc6; TEXT-ALIGN: center
+}
+.slL {
+	FONT-SIZE: x-small; COLOR: #333333; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #fffbc6
+}
+.ltsl {
+	FONT-SIZE: x-small; COLOR: #333333; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #fffce6; TEXT-ALIGN: center
+}
+.ltslL {
+	FONT-SIZE: x-small; COLOR: #333333; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #fffce6
+}
+HR {
+	BACKGROUND: #003366
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A {
+	FONT-SIZE: small; COLOR: #0000dd; LINE-HEIGHT: 150%; TEXT-DECORATION: none
+}
+LI {
+	COLOR: #000099
+}
+SPAN.date {
+	FONT-SIZE: x-small; COLOR: #999999; LINE-HEIGHT: 150%; TEXT-DECORATION: none
+}
+.em {
+	FONT-SIZE: x-small; COLOR: #660099; TEXT-DECORATION: none
+}
+SPAN.txt {
+	FONT-SIZE: x-small; COLOR: #999999; LINE-HEIGHT: 150%; TEXT-DECORATION: none
+}
+.msovershow {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; VISIBILITY: hidden; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; POSITION: absolute; BACKGROUND-COLOR: #eeeeee; block: 
+}
+.sci2L {
+	FONT-SIZE: x-small; COLOR: #000000; BACKGROUND-COLOR: #ccccff
+}
+.dr {
+        FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 150%; BACKGROUND-COLOR: #cc0000; TEXT-ALIGN: center
+}
+

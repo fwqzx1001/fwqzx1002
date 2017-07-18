@@ -1,0 +1,62 @@
+#drag{ 
+    position: relative;
+    background-color: #EEBB00;
+    width: 300px;
+    height: 60px;
+	top:4%;
+	margin-top:4%;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 40px;
+}
+#drag .handler{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 56px;
+    height: 56px;
+    border: 1px solid #C8006C;
+    cursor: move;
+    border-radius: 38px;
+}
+.handler_bg{
+    background: #C8004C;   //拖拉圆点背景色
+     no-repeat center;
+     font-size: 56px;
+     font-weight: bold;
+     color: #00F;
+     text-align: center;
+}
+.handler_ok_bg{
+    background: #C8006C;  //拖拉成功后的背景颜色，目前为白色
+    no-repeat center;
+    border-radius: 40px; //背景蓝色部分
+}
+#drag .drag_bg{
+    background-color: #7ac23c;
+    height: 60px;
+    width: 0px;
+}
+#drag .drag_text{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 300px;
+    font-size: 26px;
+    letter-spacing: 0.2em;  //调字体
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -o-user-select:none;
+    -ms-user-select:none; 
+}
+
+#drag .login{/**样式的名字 对应class=xxx**/
+	width:80px;/**宽度**/
+	height:80px;/**高度**/
+	position:absolute;/**绝对定位**/
+	left:50%;/**左边50%**/
+	top:50%;/**顶部50%**/
+	margin-top:-50px;/**上移-50%**/
+	margin-left:-100px;/**左移-50%**/
+}
