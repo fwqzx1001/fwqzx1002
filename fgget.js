@@ -1,5 +1,7 @@
 
-var fileurl0= "https://zhenmp4.github.io/fgsoft-1001/";
+var fileurl0= "https://github.com/zhenmp4/fgsoft-1001/raw/master/";
+
+
 
 function fgget01(){	
  
